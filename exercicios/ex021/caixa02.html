@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(126, 126, 126);
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            border-radius: 15px 0px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        nav{
+            background-color: rgb(190, 190, 190);
+            padding: 1px;
+            width: 120px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37); 
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>meu site</h1>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+   </header>
+   <main>
+    <section id="assuntos">
+
+    </section>
+    <section id="noticias">
+        <article>
+            <h2>noticia sobre o Brasil</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum dignissimos, dicta alias consequatur excepturi facere, hic saepe quis praesentium porro molestias. Minus corrupti molestias mollitia repellendus aperiam sunt, natus soluta!</p>
+            <aside>
+                <p>artigo escrito por ...</p>
+            </aside>
+
+        </article>
+    </section>
+   </main>
+   <footer>
+        <p>Desenvolvido por Sarah Amorim Castilho</p>
+   </footer>
+   <div id="bola"></div>
+</body>
+</html>
