@@ -22,12 +22,16 @@
 *{
     margin: 0px;
     padding: 0px;
-    text-align: justify;
+   
 }
 body{
     background-color: var(--cor0);
     font-family: var(--font-padrao);
+    
 } 
+body > p{
+    text-align: justify;
+}
 a.externo::after{
     content: "\1F517\00A0";
 
@@ -132,6 +136,7 @@ footer{
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
+
 }
 footer a{
     color: white;
